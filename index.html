@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="portfolio" content="This is my OG portfolio where ive showed my skills via this">
+    <meta name="keywords" content="Portfolio,HTML,CSS,Js,Bootstarp,Mysql,PHP">
+    <meta name="author" content="Rahul E Mathi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -49,11 +52,17 @@
     .links a:hover{
         color: #524D99;
     }
+
+    .intro{
+        font-weight: 500;
+    }
     
 </style>
 </head>
 <body onload="name()">
     
+
+    <!-- starting section -->
 <div class="container-fluid bg-blue">
     <div class="row">
         <div class="col-sm-12 col-md-4 offset-md-2 d-flex align-items-center">
@@ -61,6 +70,7 @@
                 <h1 id="name"></h1>
             <p>To Know about my Projects visit <a href="" class="link">Github</a></p>
                <p> To know about my experience visit <a href="" class="link">LinkedIn</a></p>
+               <p><a href="" class="link">Click Here</a> to write a mail</p>
                 </div>
         </div>
 
@@ -70,20 +80,37 @@
     </div>
 </div>
 
+
+<!-- introduction -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 px-5 intro">
+            <h1 class="text-center heading-blue">Intro</h1>
+            <p>Hi <span id="name1"></span> Myself rahul With over 3 years of experience in front-end development, I have a proven track record of delivering high-quality, 
+                user-friendly web applications. I am an expert in HTML, CSS, and JavaScript and have a deep understanding of responsive design and cross-browser compatibility. 
+                My passion for technology has driven me to expand my skillset and I am currently exploring the world of back-end development. 
+                I am eager to learn new technologies and am confident that my expertise in front-end development, combined with my drive to learn, 
+                will enable me to become a well-rounded full-stack developer.</p>
+        </div>
+    </div>
+</div>
+
+<!-- projects -->
 <div class="container-fluid">
     <div class="row">
         <div class="col sm-12 col-md-12">
             <h1 class="text-center heading-blue">Projects</h1>
         </div>
+        <div class="col sm 12 col-md-12 text-center">
+            <div class="links">
+            <a target="_blank" href="https://snboticsresearch.com/">SNBotics Research Pvt Ltd</a></br>
+            <a target="_blank" href="https://venusinfotech.net">Venus Infotech</a></br>
+            <a target="_blank" href="">404 Error Page</a></br>
+            <a target="_blank" href="">Teams Page</a>
+            </div>
+        </div>
     </div>
 </div>
-
-
-
-
-
-
-
 
 
 
